@@ -69,9 +69,7 @@ function Infomation({
         Đường đi
       </a>
     </div>
-  );
-
-  return (
+  
     <div className={cx("wrapper")} ref={boxRef}>
       <House className={cx("house")} />
 
