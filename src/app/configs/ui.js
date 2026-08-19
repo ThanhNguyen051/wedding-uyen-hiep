@@ -31,7 +31,7 @@ const weddingInfo = [
       full: "Chủ nhật, Ngày 29 Tháng 08 năm 2026",
     },
     address: "Tư Gia",
-    street: "Ấp Đông Thọ B - Xã Thạch Đông",
+    street: "Ấp Đông Thọ B - Xã Thạnh Đông - Tỉnh An Giang",
     phone: "0913572558",
     posision: "bottom left",
   },
@@ -61,7 +61,7 @@ const daysInMonth = [
   },
   {
     title: "sat",
-    days: [1, 8, 15, 22, 28, 0],
+    days: [1, 8, 15, 22, 29, 0],
   },
   {
     title: "sun",
