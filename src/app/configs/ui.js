@@ -30,7 +30,7 @@ const weddingInfo = [
       time: "11:00",
       full: "Chủ nhật, Ngày 29 Tháng 08 năm 2026",
     },
-    address: "Tư Gia",
+    address: "Tư Gia \n Ấp Đông Thọ B - Xã Thạnh Đông - Tỉnh An Giang",
     street: "Ấp Đông Thọ B - Xã Thạnh Đông - Tỉnh An Giang",
     phone: "0913572558",
     posision: "bottom left",
