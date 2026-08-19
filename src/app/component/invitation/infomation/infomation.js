@@ -56,7 +56,7 @@ function Infomation({
           </span>
         </p>
         <div className={cx("address")}>{"CỬ HÀNH HÔN LỄ"}</div>
-        <div className={cx("address")}>{"   Giáo xứ Thiên Ân   "}</div>
+        <div className={cx("address")}>{"-   Giáo xứ Thiên Ân   -"}</div>
         <a className={cx("btn", "ani-btn")} href={`tel:${phone}`}>
           <FaPhone className={cx("icon")} />
           {phone}
