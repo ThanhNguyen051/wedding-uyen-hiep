@@ -85,13 +85,13 @@ const profileSection = {
   profiles: [
     {
       title: "bride",
-      name: "Lê Phương Uyên",
+      name: "Maria Lê Phương Uyên",
       avatar: `${cdnLink}/bride6.jpg`,
       images: [`${cdnLink}/bride4.jpg`, `${cdnLink}/bride7.jpg`],
     },
     {
       title: "groom",
-      name: "Trương Cát Hiệp",
+      name: "Gioan Baotixita Trương Cát Hiệp",
       avatar: `${cdnLink}/groom2.jpg`,
       images: [`${cdnLink}/groom3.jpg`, `${cdnLink}/groom1.jpg`],
     },
