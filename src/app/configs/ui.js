@@ -25,13 +25,13 @@ const configConfetti = {
 const weddingInfo = [
   {
     time: {
-      date: "30/08",
+      date: "29/08",
       year: "2026",
       time: "11:00",
-      full: "Chủ nhật, Ngày 30 Tháng 08 năm 2026",
+      full: "Chủ nhật, Ngày 29 Tháng 08 năm 2026",
     },
-    address: "Nhà hàng Năm Nhỏ sảnh Center",
-    street: "D7 số 35-41 Tôn Đức Thắng, phường Rạch Giá - tỉnh An Giang",
+    address: "Tư Gia",
+    street: "Ấp Đông Thọ B - Xã Thạch Đông",
     phone: "0913572558",
     posision: "bottom left",
   },
@@ -102,7 +102,7 @@ const profileSection = {
 
 const invitationSection = {
   imgs: [`${cdnLink}/e7.jpg`, `${cdnLink}/e4.jpg`, `${cdnLink}/e6.jpg`],
-  activeDay: 30,
+  activeDay: 29,
 };
 
 // album section
@@ -148,7 +148,7 @@ const giftSection = {
 const timerSection = {
   weddingTime: {
     year: 2026,
-    day: 30,
+    day: 29,
     month: 8,
   },
 };
