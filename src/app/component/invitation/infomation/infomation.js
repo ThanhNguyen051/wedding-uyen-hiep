@@ -34,29 +34,11 @@ function Infomation({
           >
             {time.date}
           </span>
-          <span
-            className={cx("date-detail")}
-            style={{
-              transform: boxInView ? "none" : "translateY(150px)",
-              opacity: boxInView ? 1 : 0,
-              transition: "all 1.5s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
-            }}
-          >
-            {time.year}
-          </span>
-          <span
-            className={cx("date-detail")}
-            style={{
-              transform: boxInView ? "none" : "translateY(150px)",
-              opacity: boxInView ? 1 : 0,
-              transition: "all 1.5s cubic-bezier(0.17, 0.55, 0.55, 1) 1.5s",
-            }}
-          >
-            {"08:00"}
-          </span>
+          <span className={cx("date-detail")}> {time.year} </span>
+          <span className={cx("date-detail")}> {"08:00"} </span>
         </p>
         <div className={cx("address")}>{"CỬ HÀNH HÔN LỄ"}</div>
-        <div className={cx("address")}>{"-   Giáo xứ Thiên Ân   -"}</div>
+        <div className={cx("address")}>{"Giáo xứ Thiên Ân"}</div>
         <a className={cx("btn", "ani-btn")} href={`tel:${phone}`}>
           <FaPhone className={cx("icon")} />
           {phone}

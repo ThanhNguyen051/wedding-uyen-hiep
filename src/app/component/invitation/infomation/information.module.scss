@@ -1,5 +1,6 @@
 .wrapper {
-  margin: 48px 12px;
+  margin: 48px 0; /* Đổi 12px thành 0 để bỏ khoảng cách 2 bên lề */
+  width: 100%; /* Ép khối này giãn rộng hết mức có thể */
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -8,7 +9,7 @@
   flex: 1;
   background-image: url("./../../../images/br.jpeg");
   color: #fff;
-  max-width: 800px;
+  max-width: 800px; /* Vẫn giữ mức này để trên máy tính không bị quá to */
   // background-image: url(../../static/images/img2.png);
   // background-position: bottom left;
   // background-size: 180px;
